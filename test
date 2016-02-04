@@ -1,0 +1,34 @@
+type=BRS/brs
+blocksize=32768
+cycletimes=10000
+K=10
+N=4
+L=0
+lost=$1
+threadNum=1
+
+echo " "
+threadNum=1
+echo ./$type $blocksize $cycletimes $K $N $L $lost $threadNum
+./$type $blocksize $cycletimes $K $N $L $lost $threadNum
+
+echo " "
+threadNum=2
+echo ./$type $blocksize $cycletimes $K $N $L $lost $threadNum
+./$type $blocksize $cycletimes $K $N $L $lost $threadNum
+
+echo " "
+threadNum=4
+echo ./$type $blocksize $cycletimes $K $N $L $lost $threadNum
+./$type $blocksize $cycletimes $K $N $L $lost $threadNum
+
+echo " "
+threadNum=8
+echo ./$type $blocksize $cycletimes $K $N $L $lost $threadNum
+./$type $blocksize $cycletimes $K $N $L $lost $threadNum
+
+echo " "
+threadNum=16
+echo ./$type $blocksize $cycletimes $K $N $L $lost $threadNum
+./$type $blocksize $cycletimes $K $N $L $lost $threadNum
+
