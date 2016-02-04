@@ -1,9 +1,9 @@
 # BRS
 A fault-tolerance code for distributed storage system .
 ---------------------------------------------------------
-The program running on Linux.
-content:
-compiler.sh   compile to generate executable file.
-BRSCoder.cpp  test BRS's performance.
-BRSCoder.h    encapsulate function of encoding and decoding.
-timer.h       time accounting.
+The program running on Linux.<br>
+content: <br>
+compiler.sh compile to generate executable file. <br>
+BRSCoder.cpp test BRS's performance. <br>
+BRSCoder.h encapsulate function of encoding and decoding. <br>
+timer.h time accounting.  <br>
